@@ -1,0 +1,89 @@
+/*   */
+body {
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 18px;
+  }
+
+   /* Header Styles */
+.header {
+	text-align: center;
+	height: 220px;
+  }
+
+h1 {
+    font-family: 'Arvo', sans-serif;
+    font-size: 64px;
+    font-weight: 300;
+    color: darkslategray;
+}
+
+h2 {
+    font-family: 'Arvo', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    text-align: center;
+}
+.img {
+    height: 300px;
+}
+
+.places {
+    clear: both;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+.place_card {
+	display: flex;
+	width: 31%;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-right: 20px;
+	margin-left: auto;
+	border-radius: 3px;
+	height: auto;
+  }
+
+  p{
+      text-align: center;
+  }
+
+.btn {
+	position: absolute;
+	bottom: 15%;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+	padding: 10px 30px;
+	left: 37%;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: #4CAF50;
+	color: green;
+	text-decoration: none;
+  }
+
+  .btn {
+    transition-duration: 0.4s;
+  }
+  
+  .btn:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+
+  }
+  
+  .place_card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    position: relative;
+	padding: 2px 16px;
+	height: 150px;
+  }
