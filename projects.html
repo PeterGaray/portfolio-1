@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patty_Projects</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="projects.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<!--navigation section start-->
+<nav id="navbar" class="navbar">
+    <ul class="nav-menu">
+      <li>
+        <a data-scroll="home" href="#home" class="dot active">
+          <span>Home</span>
+        </a>
+      </li>
+      <li>
+        <a data-scroll="about" href="about.html" class="dot">
+          <span>About me</span>
+        </a>
+      </li>
+      <li>
+        <a data-scroll="projects" href="projects.html" class="dot">
+          <span>Protfolio</span>
+        </a>
+      </li>
+      <li>
+        <a data-scroll="contact" href="#contact" class="dot">
+          <span>Contact</span>
+        </a>
+      </li>
+    </ul>
+</nav>
+  <!-- End Nav Section -->
+
+
+<!--body-->
+
+<section id="portfolio" class="container main-section">
+    <div class="filters row js-dis">
+      <h4 class="filters__title"><i class="fa fa-tags"></i> </h4>
+      <ul class="filters__list">
+        <li class="filters__label is-active"> all </li>
+        <li class="filters__label" data-cat="app"> application</li>
+        <li class="filters__label" data-cat="web"> resposive web </li>
+      </ul>
+    </div>
+
+    <div class="portfolio__project-wrapper row">
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4 text-center" data-cat="app">
+        <a href="https://codepen.io/eevu/full/BoGMJm/" target="_blank" title="view live">
+          <div class="portfolio__project__preview">
+            <img src="images/synchonicity.png" alt="random quotes">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name">Synchonicity</h3>
+              <p class="portfolio__project__category">Makes Group Planning Easier For Everyone</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="app">
+        <a href="#" title="coming soon">
+          <div class="portfolio__project__preview">
+            <img src="images/plantnanny.png" alt="random placeholder">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name"> Desktop </h3>
+              <p class="portfolio__project__category">Turning The Concrete Jungle Green One Thumb At A Time</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="web">
+        <a href="#" title="coming soon">
+          <div class="portfolio__project__preview">
+            <img src="images/ffr.png" alt="random placeholder">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name"> Laptop </h3>
+              <p class="portfolio__project__category">Provide a Furever Home</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+</body>
+</html>
