@@ -35,8 +35,9 @@ body {
 
 @media (min-width: 920px) {
 	.header {
-		padding-left: 6em;
-		padding-right: 6em;
+		/* max-width: 1500px !important; */
+		padding-left: 3em;
+		padding-right: 3em;
 	} 
 }
 
@@ -91,12 +92,26 @@ body {
 
 /* Projects */
 
+/* #portfolio {
+	max-width: 1100px !important;
+} */
+
+
+.container {
+	max-width: 1100px !important;
+}
+
+.main-section {
+	max-width: 1100px !important;
+}
+
 .portfolio__project-wrapper {
     padding: 0 10px;
-    height: 300px;
+	height: 300px;
 }
 
 .portfolio__project {
+	max-width: 1000px !important;
 	position: relative;
 	height: auto;
 	padding: 0;
